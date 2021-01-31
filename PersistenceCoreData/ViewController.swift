@@ -14,8 +14,14 @@ class ViewController: UIViewController {
     private static let lineEntityName = "User"
     private static let lineNumberKey = "lineNumber"
     private static let lineTextKey = "lineText"
-    @IBOutlet var lineFields: [UITextField]!
     
+    @IBOutlet weak var mainTableView: UITableView!
+    
+    
+    @IBAction func addName(_ sender: UIBarButtonItem) {
+        
+    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +43,8 @@ class ViewController: UIViewController {
         } catch {
             print("There was an error in executeFetchRequest(): \(error)")
         }
-        
+        title = "Аптеки"
+        mainTableView.register(UITableViewCell.self,forCellReuseIdentifier: "Cell")
     }
     
     func applicationWillTerminate(application: UIApplication) {

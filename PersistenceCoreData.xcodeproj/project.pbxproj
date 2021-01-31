@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A7308DC21FF21A8000F9F6B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7308DB21FF21A8000F9F6B /* TableViewCell.swift */; };
+		0A7308DE21FF3C97000F9F6B /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7308DD21FF3C97000F9F6B /* Organization.swift */; };
 		0ACF20AF21F628C800686226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF20AE21F628C800686226 /* AppDelegate.swift */; };
 		0ACF20B121F628C800686226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF20B021F628C800686226 /* ViewController.swift */; };
 		0ACF20B421F628C800686226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF20B221F628C800686226 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A7308DB21FF21A8000F9F6B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0A7308DD21FF3C97000F9F6B /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
 		0ACF20AB21F628C800686226 /* PersistenceCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersistenceCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACF20AE21F628C800686226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ACF20B021F628C800686226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				0ACF20AE21F628C800686226 /* AppDelegate.swift */,
 				0ACF20B021F628C800686226 /* ViewController.swift */,
 				0ACF20B221F628C800686226 /* Main.storyboard */,
+				0A7308DB21FF21A8000F9F6B /* TableViewCell.swift */,
+				0A7308DD21FF3C97000F9F6B /* Organization.swift */,
 				0ACF20B821F628CA00686226 /* Assets.xcassets */,
 				0ACF20BA21F628CA00686226 /* LaunchScreen.storyboard */,
 				0ACF20BD21F628CA00686226 /* Info.plist */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ACF20B121F628C800686226 /* ViewController.swift in Sources */,
+				0A7308DC21FF21A8000F9F6B /* TableViewCell.swift in Sources */,
 				0ACF20B721F628C800686226 /* PersistenceCoreData.xcdatamodeld in Sources */,
+				0A7308DE21FF3C97000F9F6B /* Organization.swift in Sources */,
 				0ACF20AF21F628C800686226 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
